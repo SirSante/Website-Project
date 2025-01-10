@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main"></div> 
+
+    
+    <div class="navbar">
+        <img src="images/Logo.png" class="logo" alt="Logo">
+        <ul>
+            <li><a href="index.html" accesskey="m">Home</a></li>  
+            <li><a href="phones.html" accesskey="p">Phones</a></li>
+            <li><a href="laptops.html" accesskey="l">Laptops</a></li>
+            <li><a href="headphones.html" accesskey="h">Headphones</a></li>
+            <li><a href="tablets.html" accesskey="t">Tablets</a></li>
+        </ul>
+    </div>
+
+    <!--side note - accesskeys work differently on different browsers:
+    Windows:
+    For Chrome, Edge, and Opera: Press Alt + Access Key.
+    For Firefox: Press Alt + Shift + Access Key.
+
+    Mac:
+    For Safari, Chrome, and Opera: Press Ctrl + Option + Access Key.
+    For Firefox: Press Ctrl + Access Key.-->
+
+    <!--Can also control with arrow keys-->
+    
+    <div class="content">
+        <h1>WELCOME</h1>
+        <p>Your guide to the latest in tech</p>
+        <div>
+            <button type="button" onclick="location.href='explore.html';"><span>Explore</span></button>
+        </div>
+    </div>
+
+    
+    <div class="dynamic-elements">
+        <div class="rotating-cube"></div>
+    </div>
+
+    <script src="menu.js"></script>
+  </body>
+</html>
